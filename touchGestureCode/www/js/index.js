@@ -5,6 +5,7 @@ $(document).on("pagecreate","#pageone",function(){
 	$('#tapt').on("tap",function(){
         var r=random();
         alert(r);
+        navigator.notification.beep(1);	//beep once
  	}); 
 
 });
